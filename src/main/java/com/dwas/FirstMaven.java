@@ -12,7 +12,7 @@ public class FirstMaven {
 
     public static void main(String[] args) {
         // System.setProperty() method forms the basis for test automation on any browser
-        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver");  // Test case automation on chrome
+        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver.exe");  // Test case automation on chrome
         driver = new ChromeDriver();        // Instantiating as ChromeDriver
         String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new java.util.Date()); // Storing current date and time as given pattern
         driver.get("https://demo.nopcommerce.com");     // Navigate the given URL and wait till page load

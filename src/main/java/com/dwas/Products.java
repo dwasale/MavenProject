@@ -7,7 +7,7 @@ public class Products extends FirstMaven{   // 'extends' keyword inherits all th
 
     public static void main(String[] args){
         // System.setProperty() method forms the basis for test automation on any browser
-        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver"); // Test case automation on chrome
+        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver.exe"); // Test case automation on chrome
         driver = new ChromeDriver();    // Instantiating for ChromeDriver
         driver.get("https://demo.nopcommerce.com"); // Navigating the given url and wait till the page loads
         driver.manage().window().maximize();    // It returns instance of option interface and returns instance of window interface
