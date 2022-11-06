@@ -7,7 +7,7 @@ public class HomePageCategories extends FirstMaven{  // Inherits all the attribu
 
     public static void main(String[] args) {
         // System.setProperty() method forms the basis for test automation on any browser
-        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver.exe");  // Test case automation on chrome
+        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver");  // Test case automation on chrome
         driver = new ChromeDriver();
         driver.get("https://demo.nopcommerce.com");
         driver.manage().window().maximize();

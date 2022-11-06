@@ -7,7 +7,7 @@ public class NewsComment extends FirstMaven{   // Extending the class from super
 
     public static void main(String[] args) {
         //System.setProperty() method forms the basis for test automation on any browser
-        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver.exe");  //Test case automation on chrome
+        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver");  //Test case automation on chrome
         driver = new ChromeDriver(); // Creating object for ChromeDriver
         driver.get("https://demo.nopcommerce.com");   //Navigate the given URL and wait till page load
         driver.manage().window().maximize();    //It returns instance of option interface and returns instance of window interface
