@@ -7,7 +7,7 @@ public class EmailAFriend extends FirstMaven{ // Inherits all the attributes and
 
     public static void main(String[] args) {
         //System.setProperty() method forms the basis for test automation on any browser
-        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver.exe"); //It forms the test case automation on chrome
+        System.setProperty("webdriver.chrome.driver","src/test/java/Drivers/chromedriver"); //It forms the test case automation on chrome
         driver = new ChromeDriver();    //Creating driver as an object for ChromeDriver
         driver.get("https://demo.nopcommerce.com/");  //Navigate the given URL and wait till page load
         driver.manage().window().maximize(); //It returns instance of option interface and returns instance of window interface
